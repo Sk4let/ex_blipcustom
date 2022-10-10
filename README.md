@@ -1,2 +1,2 @@
 # Free to use
-Just customblip script
+Just customblip script for fivem.
