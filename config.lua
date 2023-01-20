@@ -24,7 +24,6 @@ Config.Blip = {
         text = '🍾 GalaxyPub ~r~[Pub]'
     },
 
-
     -------------- Garage ------------------------
 
     {
