@@ -1,14 +1,12 @@
 CreateThread(function()
-
-  for k, v in ipairs(Config.blips) do
-
+  for _, v in pairs(Config.blips) do
     if v.radius and v.radiusColor then
-      local radiusBlip = AddBlipForRadius(v.coords.x, v.coords.y, v.coords.z, v.radius or 0) -- you can use a higher number for a bigger zone
+      local radiusBlip = AddBlipForRadius(v.x, v.y, v.z, v.radius or 0) -- you can use a higher number for a bigger zone
       SetBlipHighDetail(radiusBlip, true)
       SetBlipColour(radiusBlip, v.radiusColor or 15)
       SetBlipAlpha(radiusBlip, 128)
     end
-    local blip = AddBlipForCoord(v.coords.x, v.coords.y, v.coords.z)
+    local blip = AddBlipForCoord(v.x, v.y, v.z)
     SetBlipSprite(blip, v.id)
     SetBlipDisplay(blip, v.display)
     SetBlipScale(blip, v.scale)
@@ -20,5 +18,4 @@ CreateThread(function()
     BeginTextCommandSetBlipName(blipName)
     EndTextCommandSetBlipName(blip)
   end
-
 end)
