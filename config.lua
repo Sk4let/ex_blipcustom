@@ -1,7 +1,7 @@
 Config = {}
 
 
-Config.Blip = {
+Config.blips = {
     {
         x = 4889.5 ,
         y = -4924.88 ,
