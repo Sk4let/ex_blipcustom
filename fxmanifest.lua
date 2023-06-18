@@ -5,15 +5,15 @@ lua54 'yes'
 game 'gta5'
 
 --[[ Resource Information ]] --
-name 'extend_blipcustom'
-version '0.0.3'
-description 'extend blipcustom'
+name 'ex_blipcustom'
+version '0.0.4'
+description 'extend blip system'
 author 'http://extend.studio/'
-repository 'https://github.com/Sk4let/extend_blipcustom'
+repository 'https://github.com/Extend-Studio/ex_blipcustom'
 
 --[[ Manifest ]] --
 
 client_scripts {
     'config.lua',
-    'client/client.lua',
+	'client/main.lua',
 }
