@@ -9,11 +9,11 @@ CreateThread(function()
     local blip = AddBlipForCoord(v.x, v.y, v.z)
     SetBlipSprite(blip, v.id)
     SetBlipDisplay(blip, v.display)
-    SetBlipScale(blip, v.scale)
+    SetBlipScale(blip, v.size)
     SetBlipColour(blip, v.color)
     SetBlipAsShortRange(blip, true)
     SetBlipHighDetail(blip, true)
-    local blipName = 'extend_blipcustom'
+    local blipName = 'ex_blipsuctom'
     AddTextEntry(blipName, v.text)
     BeginTextCommandSetBlipName(blipName)
     EndTextCommandSetBlipName(blip)
