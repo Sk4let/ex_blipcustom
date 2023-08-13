@@ -6,7 +6,7 @@ game 'gta5'
 
 --[[ Resource Information ]] --
 name 'ex_blipcustom'
-version '0.0.4'
+version '0.0.5'
 description 'extend blip system'
 author 'http://extend.studio/'
 repository 'https://github.com/Extend-Studio/ex_blipcustom'
